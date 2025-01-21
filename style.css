@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 80px;
+}
+.cal-box {
+    width: 380px;
+    height: 300px;
+    background-color: white;
+    border: solid 15px gray;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bill-input {
+    position: absolute;
+    top: 40px;
+    left: 20px
+}
+.select-procent {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    position: absolute;
+    top: 105px;
+}
+.procent {
+    width: 70px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+}
+.reset {
+    width: 310px;
+    height: 30px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid;
+    position: absolute;
+    top: 220px;
+    left: 20px;
+}
+.bill {
+    top: 5px;
+}
+.select-tip {
+    top: 65px;
+}
+.position {
+    position: absolute;
+    left: 20px;
+}
+.total {
+    top: 180px;
+}
